@@ -29,9 +29,9 @@ Surge 4.2.0+ 脚本配置:
 ************************
 
 [Script]
-吾爱签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
-吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
 [MITM] 
 hostname= www.52pojie.cn
@@ -42,11 +42,11 @@ QuantumultX 远程脚本配置:
 
 [task_local]
 # 吾爱签到
-0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+0 9 * * * https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
 [rewrite_local]
 # 获取Cookie
-https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
 [mitm] 
 hostname= www.52pojie.cn
@@ -57,10 +57,10 @@ Loon 2.1.0+ 脚本配置:
 
 [Script]
 # 吾爱签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
 # 获取Cookie
-http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/mrggbond/SurgeMod/main/Script/52pojie.js
 
 [Mitm] 
 hostname= www.52pojie.cn
