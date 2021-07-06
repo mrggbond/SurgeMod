@@ -16,6 +16,8 @@
 
 腾讯视频Cookie = type=http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 
+美团Cookie = type=http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
+
 京东到家 = type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jddj.js
 
 来客有礼 = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/lkyl.js
@@ -28,4 +30,4 @@
 
 
 [MITM]
-hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, mobwsa.ximalaya.com, v.qq.com, *.video.qq.com, daojia.jd.com, draw.jdfcloud.com, wq.jd.com, m.jingxi.com
+hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, mobwsa.ximalaya.com, v.qq.com, *.video.qq.com, daojia.jd.com, draw.jdfcloud.com, wq.jd.com, m.jingxi.com, i.meituan.com
