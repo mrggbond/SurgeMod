@@ -31,4 +31,4 @@ http-request ^https?:\/\/tieba\.baidu\.com\/?.? script-path=https://raw.githubus
 
 
 [MITM]
-hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, mobwsa.ximalaya.com, v.qq.com, *.video.qq.com, daojia.jd.com, draw.jdfcloud.com, wq.jd.com, m.jingxi.com, i.meituan.com
+hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, tieba.baidu.com, mobwsa.ximalaya.com, v.qq.com, *.video.qq.com, daojia.jd.com, draw.jdfcloud.com, wq.jd.com, m.jingxi.com, i.meituan.com
